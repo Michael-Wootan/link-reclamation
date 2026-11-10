@@ -1,0 +1,19 @@
+{
+  "name": "link-reclamation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Finds broken backlinks from Ahrefs and unlinked brand mentions from Google Alerts, verifies each page, and drafts the fix email for each in a weekly report.",
+  "main": "src/link-reclamation.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "reclaim": "node src/link-reclamation.js",
+    "dry-run": "node src/link-reclamation.js --dry-run",
+    "test": "node scripts/test-classify.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "dotenv": "^17.3.1",
+    "imap": "^0.8.19",
+    "nodemailer": "^8.0.11"
+  }
+}

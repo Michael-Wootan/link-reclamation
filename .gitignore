@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+!.env.example
+state/
+config/brand.json
+*.log
+.DS_Store

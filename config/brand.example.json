@@ -1,0 +1,14 @@
+{
+  "company": "Acme Supply Co.",
+  "senderName": "Alex Morgan",
+  "domain": "acmesupply.example",
+  "terms": ["acme supply", "acmesupply"],
+  "allowedLinks": [
+    "https://acmesupply.example/blog",
+    "https://acmesupply.example/shop",
+    "https://acmesupply.example/wholesale"
+  ],
+  "contentRules": [
+    "Do NOT make health, legal or regulatory claims."
+  ]
+}
